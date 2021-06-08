@@ -1,0 +1,396 @@
+{
+    "71.80 - Utilitarios en Inform\u00e1tica": {
+        "cuatrimestre": "1",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "71.xx - Certificaciones tecnol\u00f3gicas",
+            "credito": "0",
+            "materia2": "71.xx - Introducci\u00f3n a las bases de datos",
+            "credito2": "6"
+        }
+    },
+    "81.02 - Introducci\u00f3n a la Licenciatura en Administraci\u00f3n y Sistemas": {
+        "cuatrimestre": "1",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.06 - Introducci\u00f3n a la Administraci\u00f3n",
+            "credito": "6"
+        }
+    },
+    "81.07 - Sistemas Contables": {
+        "cuatrimestre": "1",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.07 - Sistemas Contables",
+            "credito": "6"
+        }
+    },
+    "93.21 - \u00c1lgebra": {
+        "cuatrimestre": "1",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "93.21 - \u00c1lgebra",
+            "credito": "6"
+        }
+    },
+    "71.85 - Programaci\u00f3n": {
+        "cuatrimestre": "2",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "71.20 - Inform\u00e1tica General",
+            "credito": "3",
+            "materia2": "71.xx - Programaci\u00f3n Web",
+            "credito2": "6"
+        }
+    },
+    "81.08 - Aplicaci\u00f3n de las Telecomunicaciones": {
+        "cuatrimestre": "2",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "71.xx - Introducci\u00f3n a la Tecnolog\u00eda Inform\u00e1tica",
+            "credito": "3"
+        }
+    },
+    "93.20 - An\u00e1lisis Matem\u00e1tico": {
+        "cuatrimestre": "2",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "93.20 - An\u00e1lisis Matem\u00e1tico",
+            "credito": "6"
+        }
+    },
+    "94.60 - Panorama Hist\u00f3rico Global": {
+        "cuatrimestre": "2",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "94.60 - Panorama Hist\u00f3rico Global",
+            "credito": "3"
+        }
+    },
+    "94.61 - Filosof\u00eda": {
+        "cuatrimestre": "2",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "94.61 - Filosof\u00eda",
+            "credito": "3"
+        }
+    },
+    "61.81 - Microeconom\u00eda": {
+        "cuatrimestre": "3",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "61.81 - Microeconom\u00eda",
+            "credito": "3"
+        }
+    },
+    "81.11 - Contabilidad Gerencial": {
+        "cuatrimestre": "3",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.11 - Contabilidad Gerencial",
+            "credito": "6"
+        }
+    },
+    "81.52 - Negocios y Tecnolog\u00eda en Internet": {
+        "cuatrimestre": "3",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.xx - Negocios en Internet",
+            "credito": "3",
+            "materia2": "81.xx - Aplicaciones en Internet",
+            "credito2": "3"
+        }
+    },
+    "93.39 - Estad\u00edstica": {
+        "cuatrimestre": "3",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "93.39 - Estad\u00edstica",
+            "credito": "6"
+        }
+    },
+    "94.62 - \u00c9tica en los Negocios": {
+        "cuatrimestre": "3",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "94.62 - \u00c9tica en los Negocios",
+            "credito": "3"
+        }
+    },
+    "61.12 - Gesti\u00f3n Financiera": {
+        "cuatrimestre": "4",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "61.12 - Gesti\u00f3n Financiera",
+            "credito": "6"
+        }
+    },
+    "61.82 - Macroeconom\u00eda": {
+        "cuatrimestre": "4",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "61.82 - Macroeconom\u00eda",
+            "credito": "3"
+        }
+    },
+    "61.90 - Derecho P\u00fablico y Privado": {
+        "cuatrimestre": "4",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "61.xx - Derecho P\u00fablico y Privado I",
+            "credito": "3"
+        }
+    },
+    "71.88 - Gesti\u00f3n de Datos": {
+        "cuatrimestre": "4",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "71.88 - Gesti\u00f3n de Datos",
+            "credito": "6"
+        }
+    },
+    "81.20 - Comercializaci\u00f3n": {
+        "cuatrimestre": "4",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "81.20 - Comercializaci\u00f3n",
+            "credito": "3"
+        }
+    },
+    "94.63 - Epistemologia y Heur\u00edstica": {
+        "cuatrimestre": "4",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "94.63 - Epistemologia y Heur\u00edstica",
+            "credito": "3"
+        }
+    },
+    "11.83 - Gesti\u00f3n de Operaciones": {
+        "cuatrimestre": "5",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "11.83 - Gesti\u00f3n de Operaciones",
+            "credito": "6"
+        }
+    },
+    "81.21 - Gesti\u00f3n de Ventas": {
+        "cuatrimestre": "5",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "81.21 - Gesti\u00f3n de Ventas",
+            "credito": "3"
+        }
+    },
+    "81.30 - An\u00e1lisis y Modelado de Procesos de Negocios": {
+        "cuatrimestre": "5",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.xx - Gesti\u00f3n Organizacional basada en procesos de negocio",
+            "credito": "6"
+        }
+    },
+    "81.39 - Sistemas Integrados de Gesti\u00f3n Empresaria I": {
+        "cuatrimestre": "5",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.xx - Sistemas Integrados de Gesti\u00f3n I",
+            "credito": "3",
+            "materia2": "81.xx - Taller de Sistemas Integrados de Gesti\u00f3n",
+            "credito2": "3"
+        }
+    },
+    "94.40 - Estructura de las Organizaciones": {
+        "cuatrimestre": "5",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "94.40 - Estructura de las Organizaciones",
+            "credito": "3"
+        }
+    },
+    "11.84 - Gesti\u00f3n de Proyectos": {
+        "cuatrimestre": "6",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "11.84 - Gesti\u00f3n de Proyectos",
+            "credito": "3"
+        }
+    },
+    "11.85 - Toma de Decisiones": {
+        "cuatrimestre": "6",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "11.85 - Toma de Decisiones",
+            "credito": "6"
+        }
+    },
+    "81.31 - An\u00e1lisis y Dise\u00f1o de Aplicaciones Inform\u00e1ticas": {
+        "cuatrimestre": "6",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.xx - An\u00e1lisis Funcional de Aplicaciones",
+            "credito": "3",
+            "materia2": "81.xx - Dise\u00f1o de Aplicaciones Inform\u00e1ticas",
+            "credito2": "3"
+        }
+    },
+    "81.36 - Sistemas Integrados de Gesti\u00f3n Empresaria II": {
+        "cuatrimestre": "6",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.xx - Gesti\u00f3n organizacional integrada",
+            "credito": "3",
+            "materia2": "81.xx - Taller de Sistemas de Gesti\u00f3n Empresaria II",
+            "credito2": "3"
+        }
+    },
+    "94.41 - Gesti\u00f3n de los Recursos Humanos": {
+        "cuatrimestre": "6",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "94.27 - Administraci\u00f3n de los Recursos Humanos",
+            "credito": "3"
+        }
+    },
+    "81.26 - Comercio Exterior": {
+        "cuatrimestre": "7",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "81.26 - Comercio Exterior",
+            "credito": "3"
+        }
+    },
+    "81.41 - Estrategia Empresaria": {
+        "cuatrimestre": "7",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.xx - Estrategia Empresarial",
+            "credito": "3",
+            "materia2": "81.xx - Ciclo de charlas sobre estrategia",
+            "credito2": "3"
+        }
+    },
+    "81.56 - Arquitectura de la Tecnolog\u00eda Inform\u00e1tica": {
+        "cuatrimestre": "7",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.xx - Arquitectura de Soluciones Digitales",
+            "credito": "3",
+            "materia2": "82.08 - Cloud Computing",
+            "credito2": "3"
+        }
+    },
+    "94.10 - Formaci\u00f3n para Emprendedores": {
+        "cuatrimestre": "7",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "94.10 - Formaci\u00f3n para Emprendedores",
+            "credito": "3"
+        }
+    },
+    "81.46 - Auditoria General y de Sistemas": {
+        "cuatrimestre": "7",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "81.46 - Auditoria General y de Sistemas",
+            "credito": "3"
+        }
+    },
+    "81.60 - Sistemas Integrados de Gesti\u00f3n en la Industria de Servicio": {
+        "cuatrimestre": "7",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.xx - Service Design",
+            "credito": "3",
+            "materia2": "81.xx - Gesti\u00f3n de Servicios",
+            "credito2": "3"
+        }
+    },
+    "61.40 - Econom\u00eda y Finanzas Internacionales": {
+        "cuatrimestre": "7",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "61.xx - Econom\u00eda Internacional Real",
+            "credito": "3",
+            "materia2": "61.xx - Econom\u00eda Internacional Monetaria",
+            "credito2": "3"
+        }
+    },
+    "81.63 - Marketing Internacional": {
+        "cuatrimestre": "7",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "81.63 - Marketing Internacional",
+            "credito": "3"
+        }
+    },
+    "81.23 - Comercio Electr\u00f3nico": {
+        "cuatrimestre": "8",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "81.23 - Comercio Electr\u00f3nico",
+            "credito": "3"
+        }
+    },
+    "81.25 - Impuestos": {
+        "cuatrimestre": "8",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "81.xx - Impuestos para la toma de decisiones 1",
+            "credito": "3"
+        }
+    },
+    "81.45 - Seminario de Actualizaci\u00f3n": {
+        "cuatrimestre": "8",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "81.xx - Tecnolog\u00edas Exponenciales",
+            "credito": "3"
+        }
+    },
+    "81.55 - Diagn\u00f3stico Empresario y Plan de Acci\u00f3n ( Trabajo Final )": {
+        "cuatrimestre": "8",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.xx - Proyecto Final",
+            "credito": "3",
+            "materia2": "94.64 - Pr\u00e1cticas Expositivas",
+            "credito2": "3"
+        }
+    },
+    "81.61 - Modelado Avanzado de Proc e Intelig de Neg": {
+        "cuatrimestre": "8",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.xx - Arquitectura Empresarial",
+            "credito": "3",
+            "materia2": "81.xx - Taller de Modelado Avanzado",
+            "credito2": "3"
+        }
+    },
+    "81.38 - Integraci\u00f3n de Procesos de Negocios y Aplicaciones Inf": {
+        "cuatrimestre": "8",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "81.38 - Integraci\u00f3n de Procesos de Negocios y Aplicaciones Inf",
+            "credito": "3"
+        }
+    },
+    "61.92 - Derecho Aduanero": {
+        "cuatrimestre": "8",
+        "creditosActuales": "3",
+        "equiv": {
+            "materia": "61.92 - Derecho Aduanero",
+            "credito": "3"
+        }
+    },
+    "81.64 - Gesti\u00f3n y Sistemas de Informaci\u00f3n de la Log\u00edstica Internacional": {
+        "cuatrimestre": "8",
+        "creditosActuales": "6",
+        "equiv": {
+            "materia": "81.xx - Log\u00edstica Internacional",
+            "credito": "3",
+            "materia2": "81.xx - Log\u00edstica Internacional Aplicada",
+            "credito2": "3"
+        }
+    }
+}

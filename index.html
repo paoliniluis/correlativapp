@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <title>CorrelativApp</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2">
+                <h3 id ="the1">CorrelativApp</h3>
+            </div>
+            <div class="col-10" align="right">
+                <progress id="progress" value="0" max="192"></progress>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="here"></div>
+        </div>
+    </div>
+  </body>
+  <script>
+    // function to hash on the client side, ultra choreada de stack overflow wrapped in a crypto name 
+    let crypto = key => {
+        key = key.trim()
+        let hash = 0, i, chr;
+        if (key.length === 0) return hash;
+        for (i = 0; i < key.length; i++) {
+            chr   = key.charCodeAt(i);
+            hash  = ((hash << 5) - hash) + chr;
+            hash |= 0; // Convert to 32bit integer
+        }
+        return hash;
+    }
+
+    var request = new XMLHttpRequest();
+    request.open('GET', 'data/materias.json', true);
+
+    request.onload = function() {
+        if (this.status >= 200 && this.status < 400) {
+            let builder = ""
+            here.innerHTML = `
+            <div class="row">
+                <div class="col-1 text-center"></div>
+                <div class="col-1 text-center">Q</div>
+                <div class="col-4 text-center">Materia plan viejo</div>
+                <div class="col-1 text-center">Hs</div>
+                <div class="col-4 text-center">Materias plan nuevo</div>
+                <div class="col-1 text-center">Hs</div>
+            </div>
+            <hr>`
+            let data = JSON.parse(this.response);
+            Object.keys(data).forEach(key => {
+                hashkey = crypto(key);
+                // Selectors
+                builder = builder + `<div class="row">`
+                builder = builder + 
+                `<div class="col-1 text-center align-middle" id="selectors">
+                    <input type='checkbox' id=${hashkey} onclick="wipe_and_update(id)">
+                </div>`
+                // Cuatris
+                builder = builder + 
+                `<div class="col-1 text-center" id="cuatris-${hashkey}">
+                    ${data[key].cuatrimestre}
+                </div>`
+                // Materia
+                builder = builder + 
+                `<div class="col-4 text-left" id="viejo-${hashkey}">
+                    ${key}
+                </div>`
+                // Creditos actuales
+                builder = builder + 
+                `<div class="col-1 text-center" id="credsActuales-${hashkey}">
+                    ${data[key].creditosActuales}
+                </div>`
+                // Equivalencia
+                if (Object.keys(data[key].equiv).length == 2) {
+                    builder = builder + 
+                    `<div class="col-4 text-left" id="equivalencias-${hashkey}">
+                        ${data[key].equiv.materia}
+                    </div>
+                    <div class="col-1 text-center" id="equivalencias-cred-${hashkey}">
+                        ${data[key].equiv.credito}
+                    </div>`
+                } else {
+                    builder = builder + 
+                    `<div class="col-4 text-left" id="equivalencias-${hashkey}">
+                        ${data[key].equiv.materia} <br>
+                        ${data[key].equiv.materia2}
+                    </div>
+                    <div class="col-1 text-center" id="equivalencias-cred-${hashkey}">
+                        ${data[key].equiv.credito} <br>
+                        ${data[key].equiv.credito2}
+                    </div>`
+                }
+                builder = builder + `</div>`
+            })
+            here.innerHTML = here.innerHTML + builder
+        } else {
+            the1.innerHTML = "Whoops!"
+        }
+    };
+
+    request.onerror = e => {
+        console.log("there was some error but I didn't take the time to work with it", e)
+    };
+
+    request.send();
+
+    // listeners to selectors
+    let wipe_and_update = id => {
+        if (document.getElementById(id).checked) {
+            document.getElementById("cuatris-".concat(id)).classList.add("bye")
+            document.getElementById("viejo-".concat(id)).classList.add("bye")
+            document.getElementById("credsActuales-".concat(id)).classList.add("bye")
+            document.getElementById("equivalencias-".concat(id)).classList.add("bye")
+            document.getElementById("equivalencias-cred-".concat(id)).classList.add("bye")
+            
+            document.getElementById("progress").value = 
+                document.getElementById("progress").value + parseInt(document.getElementById("credsActuales-".concat(id)).innerHTML)
+        } else {
+            document.getElementById("cuatris-".concat(id)).classList.remove("bye")
+            document.getElementById("viejo-".concat(id)).classList.remove("bye")
+            document.getElementById("credsActuales-".concat(id)).classList.remove("bye")
+            document.getElementById("equivalencias-".concat(id)).classList.remove("bye")
+            document.getElementById("equivalencias-cred-".concat(id)).classList.remove("bye")
+
+            document.getElementById("progress").value = 
+                document.getElementById("progress").value - parseInt(document.getElementById("credsActuales-".concat(id)).innerHTML)
+        }
+    }
+
+  </script>
+</html>
